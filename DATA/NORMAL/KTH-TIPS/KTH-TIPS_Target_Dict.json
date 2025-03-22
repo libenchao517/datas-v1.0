@@ -1,0 +1,12 @@
+{
+    "aluminium_foil": 0,
+    "brown_bread": 1,
+    "corduroy": 2,
+    "cotton": 3,
+    "cracker": 4,
+    "linen": 5,
+    "orange_peel": 6,
+    "sandpaper": 7,
+    "sponge": 8,
+    "styrofoam": 9
+}
