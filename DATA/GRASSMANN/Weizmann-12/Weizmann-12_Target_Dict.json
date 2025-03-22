@@ -1,0 +1,18 @@
+{
+    "bend": 0,
+    "jack": 1,
+    "jump": 2,
+    "pjump": 3,
+    "run": 4,
+    "run1": 4,
+    "run2": 4,
+    "side": 5,
+    "skip": 6,
+    "skip1": 6,
+    "skip2": 6,
+    "walk": 7,
+    "walk1": 7,
+    "walk2": 7,
+    "wave1": 8,
+    "wave2": 9
+}
