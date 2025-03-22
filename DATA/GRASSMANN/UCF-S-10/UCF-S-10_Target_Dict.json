@@ -1,0 +1,15 @@
+{
+    "Diving-Side": 0,
+    "Golf-Swing-Back": 1,
+    "Golf-Swing-Front": 2,
+    "Golf-Swing-Side": 3,
+    "Kicking-Front": 4,
+    "Kicking-Side": 5,
+    "Lifting": 6,
+    "Riding-Horse": 7,
+    "Run-Side": 8,
+    "SkateBoarding-Front": 9,
+    "Swing-Bench": 10,
+    "Swing-SideAngle": 11,
+    "Walk-Front": 12
+}
