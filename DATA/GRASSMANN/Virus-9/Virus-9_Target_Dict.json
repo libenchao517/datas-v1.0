@@ -1,0 +1,17 @@
+{
+    "Adenovirus": 0,
+    "Astrovirus": 1,
+    "CCHF": 2,
+    "Cowpox": 3,
+    "Dengue": 4,
+    "Ebola": 5,
+    "Influenza": 6,
+    "Lassa": 7,
+    "Marburg": 8,
+    "Norovirus": 9,
+    "Orf": 10,
+    "Papilloma": 11,
+    "Rift Valley": 12,
+    "Rotavirus": 13,
+    "WestNile": 14
+}
