@@ -1,0 +1,12 @@
+{
+    "walk": 0,
+    "sitDown": 1,
+    "standUp": 2,
+    "pickUp": 3,
+    "carry": 4,
+    "throw": 5,
+    "push": 6,
+    "pull": 7,
+    "waveHands": 8,
+    "clapHands": 9
+}
