@@ -1,0 +1,10 @@
+{
+    "left-to-right hand opening": 0,
+    "right-to-left hand opening": 1,
+    "standing hand opening": 2,
+    "leg swinging": 3,
+    "jumping": 4,
+    "turning": 5,
+    "hopping": 6,
+    "standing still": 7
+}
