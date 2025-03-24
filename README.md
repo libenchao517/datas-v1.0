@@ -34,58 +34,66 @@ DATA软件包中包含了一些常用的数据集，已经进行了标准化，�
 ## 1.2 故障诊断数据集
 在这些故障诊断数据集中，所有数据分别被重采样为1024维（CWRU、Jiangnan）和128维（CWRU-128、Jiangnan-128）的样本。
 ### 1.2.1 轴承数据集
-- CWRU 和 CWRU-128 数据集中包含了 0.007、0.014、0.021 英寸等 3 种尺寸的滚动体故障、内圈故障、外圈故障以及正常状态下的样本。采用的原始文件名称包括`B007_0.mat、B014_0.mat、B021_0.mat、IR007_0.mat、IR014_0.mat、IR021_0.mat、OR007@6_0.mat、OR014@6_0.mat、OR021@6_0.mat、normal_0.mat`。
-- Jiangnan 和 Jiangnan-128 数据集中包含了 1000 转每分钟速度下的内圈故障、外圈故障、滚动体故障和正常样本。采用的原始文件名称包括`ib1000_2.csv、ob1000_2.csv、tb1000_2.csv、n1000_3_2.csv`。
-- KAT 和 KAT-128 数据集中包含了 1000rpm 转速、0.7Nm 负载、1000N 径向力的工况下的4种故障状态（正常样本、内圈故障、外圈故障、混合故障）下的样本。采用的原始文件名称包括`N09_M07_F10_K001_1.mat、N09_M07_F10_KA01_1.mat、N09_M07_F10_KB23_1.mat、N09_M07_F10_KI01_1.mat`。
-- Liyue 和 Liyue-128 数据集中包含了滚动体故障、保持架故障和外圈故障在 6g、20g、35g 等 3 种负载下的故障样本以及正常样本。 采用的原始文件名称包括`underhang/ball_fault/6g/13.1072.csv、underhang/ball_fault/20g/13.1072.csv、underhang/ball_fault/35g/13.7216.csv、underhang/cage_fault/6g/12.9024.csv、underhang/cage_fault/20g/13.312.csv、underhang/cage_fault/35g/13.312.csv、underhang/outer_race/6g/13.5168.csv、underhang/outer_race/20g/12.9024.csv、underhang/outer_race/35g/13.1072.csv、normal/12.288.csv`。
-- MFPT-R 和 MFPT-R-128 数据集中包含了 3 种不同工况下的轴承振动信号样本。采用的原始文件名称包括`6 - Real World Examples/IntermediateSpeedBearing.mat、6 - Real World Examples/OilPumpBearing.mat、6 - Real World Examples/PlanetBearing.mat`。
-- Ottawa 和 Ottawa-128 数据集中包含了在加速状态下的内圈故障、外圈故障和正常样本。采用的原始文件名称包括`H-A-1.mat、I-A-1.mat、O-A-1.mat`。
-- Polito 和 Polito-128 采用的原始文件名称包括`ib1000_2.csv、ob1000_2.csv、tb1000_2.csv、n1000_3_2.csv`。
-- Sebear 和 Sebear-128 采用的原始文件名称包括`ib1000_2.csv、ob1000_2.csv、tb1000_2.csv、n1000_3_2.csv`。 
-- WuHan 和 WuHan-128 采用的原始文件名称包括`ib1000_2.csv、ob1000_2.csv、tb1000_2.csv、n1000_3_2.csv`。
+- CWRU 和 CWRU-128 数据集（凯斯西储大学轴承数据中心轴承数据集）中包含了 0.007、0.014、0.021 英寸等 3 种尺寸的滚动体故障、内圈故障、外圈故障以及正常状态下的样本。采用的原始文件名称包括：`B007_0.mat、B014_0.mat、B021_0.mat、IR007_0.mat、IR014_0.mat、IR021_0.mat、OR007@6_0.mat、OR014@6_0.mat、OR021@6_0.mat、normal_0.mat`。
+- Jiangnan 和 Jiangnan-128 数据集（江南大学轴承数据集）中包含了 1000 转每分钟速度下的内圈故障、外圈故障、滚动体故障和正常样本。采用的原始文件名称包括：`ib1000_2.csv、ob1000_2.csv、tb1000_2.csv、n1000_3_2.csv`。
+- KAT 和 KAT-128 数据集（帕德博恩大学轴承数据集）中包含了 1000rpm 转速、0.7Nm 负载、1000N 径向力的工况下的4种故障状态（正常样本、内圈故障、外圈故障、混合故障）下的样本。采用的原始文件名称包括：`N09_M07_F10_K001_1.mat、N09_M07_F10_KA01_1.mat、N09_M07_F10_KB23_1.mat、N09_M07_F10_KI01_1.mat`。
+- Liyue 和 Liyue-128 数据集（里约热内卢大学轴承数据集）中包含了滚动体故障、保持架故障和外圈故障在 6g、20g、35g 等 3 种负载下的故障样本以及正常样本。 采用的原始文件名称包括：`underhang/ball_fault/6g/13.1072.csv、underhang/ball_fault/20g/13.1072.csv、underhang/ball_fault/35g/13.7216.csv、underhang/cage_fault/6g/12.9024.csv、underhang/cage_fault/20g/13.312.csv、underhang/cage_fault/35g/13.312.csv、underhang/outer_race/6g/13.5168.csv、underhang/outer_race/20g/12.9024.csv、underhang/outer_race/35g/13.1072.csv、normal/12.288.csv`。
+- MFPT-R 和 MFPT-R-128 数据集（机械故障预防技术协会轴承数据集）中包含了 3 种不同工况下的轴承振动信号样本。采用的原始文件名称包括：`6 - Real World Examples/IntermediateSpeedBearing.mat、6 - Real World Examples/OilPumpBearing.mat、6 - Real World Examples/PlanetBearing.mat`。
+- Ottawa 和 Ottawa-128 数据集（渥太华大学轴承数据集）中包含了在加速状态下的内圈故障、外圈故障和正常样本。采用的原始文件名称包括：`H-A-1.mat、I-A-1.mat、O-A-1.mat`。
+- Polito 和 Polito-128 数据集（都灵理工大学轴承数据集）中包含了 100Hz 下 150、250 和 450 微米的内圈故障和滚动体故障。采用的原始文件名称包括：`C0A_100_000_1.mat、C1A_100_000_2.mat、C2A_100_000_1.mat、C3A_100_000_1.mat、C4A_100_000_1.mat、C5A_100_000_1.mat、C6A_100_000_1.mat`。
+- Sebear 和 Sebear-128 数据集（东南大学轴承数据集）中包含了 20Hz-0V 的工况下的 5 种样本。采用的原始文件名称包括：`ball_20_0.csv、comb_20_0.csv、health_20_0.csv、inner_20_0.csv、outer_20_0.csv`。 
+- WuHan 和 WuHan-128 数据集（武汉大学转子数据集）中包含了 4 种样本。采用的原始文件名称包括：`180data_new_select_denoised.mat`。
 ### 1.2.2 齿轮数据集
-- Connectiect 和 Connectiect-128 采用的原始文件名称包括`ib1000_2.csv、ob1000_2.csv、tb1000_2.csv、n1000_3_2.csv`。
-- Segear 和 Segear-128 采用的原始文件名称包括`ib1000_2.csv、ob1000_2.csv、tb1000_2.csv、n1000_3_2.csv`。
+- Connectiect 和 Connectiect-128 数据集（康涅狄格大学齿轮数据集）中包含了 9 种不同的故障样本。采用的原始文件名称包括：`DataForClassification_TimeDomain .mat`。
+- Segear 和 Segear-128 数据集（东南大学齿轮数据就）中使用了20Hz-0V工况下的故障样本。采用的原始文件名称包括：`Chipped_20_0.csv、Health_20_0.csv、Miss_20_0.csv、Root_20_0.csv、Surface_20_0.csv`。
 ### 1.2.3 混合数据集
-- Mix-Bear
-- Mix-Gear
-## 1.3 医学图像数据集.
+- Mix-Bear 数据集由 Ottawa、Polito 和 Sebear 混合而成。
+- Mix-Gear 数据集由 Connectiect 和 Segear 混合而成。
+Mix-Bear 和 Mix-Gear 数据集的细节参见：
+```
+Li B, Zheng Y, Ran R. 2DUMAP: Two-Dimensional Uniform Manifold Approximation and Projection for Fault Diagnosis [J]. IEEE Access, 2025, 13: 12819-12831.
+```
+## 1.3 医学图像数据集
+这些医学图像数据集均来源于MedMNIST-v2，其细节参见：
+```
+Yang J, Shi R, Wei D, et al. Medmnist v2-a large-scale lightweight benchmark for 2d and 3d biomedical image classification[J]. Scientific Data, 2023, 10(1): 41.
+```
 ### 1.3.1 2D医学图像数据集
-- bloodmnist
-- breastmnist
-- chestmnist
-- dermamnist
-- octmnist
-- organamnist
-- organcmnist
-- organsmnist
-- pathmnist
-- pneumoniamnist
-- retinamnist
-- tissuemnist
+- BloodMNIST
+- BreastMNIST
+- ChestMNIST
+- DermaMNIST
+- OCTMNIST
+- OrganAMNIST
+- OrganCMNIST
+- OrganSMNIST
+- PathMNIST
+- PneumoniaMNIST
+- RetinaMNIST
+- TissueMNIST
 ### 1.3.2 3D医学图像数据集
-- adrenalmnist3d
-- fracturemnist3d
-- nodulemnist3d
-- organmnist3d
-- synapsemnist3d
-- vesselmnist3d
+- AdrenalMNIST3D
+- FractureMNIST3D
+- NoduleMNIST3D
+- OrganMNIST3D
+- SynapseMNIST3D
+- VesselMNIST3D
 ## 1.4 格拉斯曼数据集
-- Ballet-5
-- Cam-Ges-6
-- CASIA-B-5
-- ETH-80-5
-- EYB-5
-- FPHA-5
-- KTH-5
-- RGB-D-5
-- Traffic-5
-- UCF-S-5
-- UT-Kinect-5
-- UTD-MHAD-5
-- Virus-5
-- Weizmann-5
-- YTC-5
+- Ballet 数据集（Ballet-5 ~ Ballet-15）由 3 个受试者执行的 8 种复杂运动模式组成，包含从芭蕾舞教学 DVD 中收集的 44 个视频，视频的每一帧被调整为 20×20 的灰度图像，由于部分视频包含 2-3 个动作类别，所有的视频被建模为 59 个图像集样本。
+- Cam-Ges-6 数据集（剑桥大学手势识别数据集）总共含有 900 个视频片段, 分别属于 9 种手势类型, 每种类型由 100 个手部动作序列构成. 上述 9 种手势类型由 3 种自然的手部形状（水平, 张开和 V 形）和 3 种手部动作（左倾, 右倾和收缩）联合定义。
+- CASIA-B 数据集（CASIA-B-5 ~ CASIA-B-15）由 124 个人（93 名男性和 31 名女性）的步态数据组成. 在 CASIA-B 数据集中, 从 11 个角度捕获了每个受试者在 3 种行走条件（普通条件、穿大衣、携带背包）下的步态。每个受试者在正常的行走条件下有 6 条运动记录, 每条记录中在 0 度拍摄的视频被用于建模图像集样本. 视频的每一帧被调整为 20×20 的灰度图像。
+- ETH-80 数据集（ETH-80-5 ~ ETH-80-15）包含 8 种不同的实物类别, 分别为牛, 杯子, 马, 狗, 土豆, 汽车, 梨以及苹果. 每个类别均含有 10 种不同的子类别，并且每个图像集样本均由 41 张从不同视角下采集到的图片组成。
+- Extended Yale B 数据集（EYB-5 ~ EYB-15）包含 16128 张图像，其中包括 28 个处于 9 个姿势和 64 种照明条件下的受试者，从而形成了一个大型照明数据集。每个受试者在每个姿势下的 64 张图象组成一个图像集样本。
+- First-Person Hand Action（FPHA）数据集（FPHA-5 ~ FPHA-15）是一个较大规模的用于手势估计的第一人称手部动作基准库，包含了属于 45 种不同手势类别的 1175 个动作序列, 由六位演示者在三种不同的视觉场景下采集得到。
+- KTH 数据集（KTH-5 ~ KTH-15）由 2391 个视频格式的动作序列组成, 包含在 4 种不同场景中记录的 6 种类型的动作, 总共记录了 25 名受试者执行这些动作。
+- RGB-D 数据集（RGB-D-5 ~ RGB-D-15）是一个大型数据集，包含 300 个对象，分为 51 个类别。每个对象有数百张图像, 每个对象随机选择 40 张图像构建一个图像集样本。
+- Traffic 数据集（Traffic-5 ~ Traffic-15）由 254 段高速公路交通视频序列组成, 这些视频序列是从一个固定视角的交通摄像头采集得到的。
+- UCF-Sport 数据集（UCF-S-5 ~ UCF-S-15）是一个动作识别数据集, 由来自 13 个动作类别的 150 个视频序列组成。
+- UT-Kinect 数据集（UT-Kinect-5 ~ UT-Kinect-15）包含 10 个动作类别的视频、深度序列和骨架数据, 由 10 个受试者在 Kinect 设备前执行。每个受试者执行每个动作两次, 总共有 200 个序列。
+- UTD-MHAD 数据集（UTD-MHAD-5 ~ UTD-MHAD-15）包含 8 名受试者执行的 27 个动作，包含 RGB 视频、深度视频、骨骼关节位置和惯性信号数据。
+- Virus 数据集（Virus-5 ~ Virus-15）中包含了 15 种病毒的 1500 张图像，每种病毒的图像被建模为 10 个图像集样本。
+- Weizmann 数据集（Weizmann-5 ~ Weizmann-15）是人类动作识别常用的数据库，包括来自 10 个动作类别的 90 个视频，由九名受试者进行。
+- YouTube Celebrities 数据集（YTC-5 ~ YTC-15）是一个非常具有挑战性且被广泛使用的人脸视频数据库, 其中包含了 47 位知名人士（演员, 歌手和政客等）的 1910 段视频序列。这些视频序列均来源于 YouTube 在线视频网站，并且其中的绝大多数都是以高压缩比，低分辨率的条件进行录制的，每个视频序列的总帧数亦不统一，变化范围在 8 到 400 之间。
 # 二、文件介绍
 
 # 三、一些参考文献
