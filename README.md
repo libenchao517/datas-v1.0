@@ -95,10 +95,21 @@ Yang J, Shi R, Wei D, et al. Medmnist v2-a large-scale lightweight benchmark for
 - Weizmann 数据集（Weizmann-5 ~ Weizmann-15）是人类动作识别常用的数据库，包括来自 10 个动作类别的 90 个视频，由九名受试者进行。
 - YouTube Celebrities 数据集（YTC-5 ~ YTC-15）是一个非常具有挑战性且被广泛使用的人脸视频数据库, 其中包含了 47 位知名人士（演员, 歌手和政客等）的 1910 段视频序列。这些视频序列均来源于 YouTube 在线视频网站，并且其中的绝大多数都是以高压缩比，低分辨率的条件进行录制的，每个视频序列的总帧数亦不统一，变化范围在 8 到 400 之间。
 # 二、文件介绍
-
+`DATA/GRASSMANN、DATA/MEDICAL、DATA/MFD、DATA/NORMAL`中包含了上述标准化后的数据集文件；
+`DATA/reorga_data`中包含了对上述数据集进行标准化的过程代码；
+`DATA/Data-from.http`中是上述数据集的下载网址；
+`DATA/Data-size.http`中是上述数据集的关键技术参数；
+`DATA/Load.py`中是加载数据集的主函数；
+`DATA/Preprocessing.py`中是一些数据预处理的基本操作；
+`DATA/utils.py`中是一些必要的函数；
+`data_example.ipynb`中是调用 DATA 软件包的一些基本示例；
 # 三、一些参考文献
-
+使用这些数据集的文献主要有：
+```
+[1] Wang J, Ran R, Fang B. GNPENet: A novel convolutional neural network with local structure for fault diagnosis[J]. IEEE Transactions on Instrumentation and Measurement, 2023, 73: 1-16.
+[2] Ran R, Wang T, Zhang W, et al. Autoencoder-based Discriminant Locality Preserving Projections for Fault Diagnosis[J]. IEEE Transactions on Instrumentation and Measurement, 2025.
+[3] Li B, Zheng Y, Ran R. 2DUMAP: Two-Dimensional Uniform Manifold Approximation and Projection for Fault Diagnosis [J]. IEEE Access, 2025, 13: 12819-12831.
+[4] Li B, Wang T, Ran R. Discriminant locality preserving projection on Grassmann Manifold for image-set classification[J]. The Journal of Supercomputing, 2025, 81(2): 1-27.
+```
 # 四、重要说明
-
-
-
+Norb、MNIST等数据集的文件较大，在上传到github的过程中对文件进行了切割，在下载后需要对这些数据集进行缝合。数据集的列表、切割和缝合的命令在`large-files.txt`中，需要在git bush环境中进行操作。
